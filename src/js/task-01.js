@@ -1,6 +1,10 @@
-const navCategories = document.querySelectorAll('h2');
-// console.log(navCategories);
+const navCategories = document.querySelectorAll('.item h2');
+const quantity = navCategories.length;
+console.log(`В списке ${quantity} категории`);
+
 const navElemQuantity = document.querySelectorAll('ul ul');
+// console.log(navElemQuantity);
+
 
 console.log('Категория:', navCategories[0].textContent);
 console.log('Количество элементов:', navElemQuantity[0].children.length);
