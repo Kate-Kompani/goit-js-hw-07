@@ -3,9 +3,6 @@ const refs = {
     namelabel: document.querySelector('#name-output'),
 }
 
-console.log(refs.input.value);
-console.log(refs.namelabel.textContent);
-refs.namelabel.textContent
 refs.input.addEventListener('input',onInputChange)
 
 function onInputChange(event) {
