@@ -14,7 +14,7 @@ const images = [
 ];
 
 const galleryRef = document.querySelector('#gallery');
-console.log(galleryRef);
+// console.log(galleryRef);
 
 
 const createGallery = (images) => {
